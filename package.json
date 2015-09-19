@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-responsivo",
+  "version": "0.0.1",
+  "description": "\"proyecto responsivo con jade, stylus y gulp\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/najera21/responsive-design.git"
+  },
+  "author": "sergio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/najera21/responsive-design/issues"
+  },
+  "homepage": "https://github.com/najera21/responsive-design#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "jade": "^1.11.0",
+    "stylus": "^0.52.4"
+  }
+}
