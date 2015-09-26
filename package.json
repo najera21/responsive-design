@@ -1,21 +1,22 @@
 {
-  "name": "proyecto-responsivo",
+  "name": "proyectoresponsivo",
   "version": "0.0.1",
   "description": "\"proyecto responsivo con jade, stylus y gulp\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server . -o"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/najera21/responsive-design.git"
+    "url": "git+https://github.com/ezavile/responsive-design.git"
   },
-  "author": "sergio",
+  "author": "Edgar Zavala",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/najera21/responsive-design/issues"
+    "url": "https://github.com/ezavile/responsive-design/issues"
   },
-  "homepage": "https://github.com/najera21/responsive-design#readme",
+  "homepage": "https://github.com/ezavile/responsive-design#readme",
   "dependencies": {
     "gulp": "^3.9.0",
     "gulp-concat-css": "^2.2.0",
@@ -24,6 +25,7 @@
     "gulp-minify-css": "^1.2.1",
     "gulp-stylus": "^2.0.7",
     "gulp-uglify": "^1.4.1",
+    "http-server": "^0.8.0",
     "jade": "^1.11.0",
     "nib": "^1.1.0",
     "stylus": "^0.52.4",
